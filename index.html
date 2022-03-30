@@ -10,52 +10,169 @@
         <link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="../src/css/normalize.css">
-        <link rel="stylesheet" href="../src/css/style.css">
-        <link rel="stylesheet" href="../src/css/screen.css">
 
-        <title>Souvenirs</title>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="./src/css/normalize.css">
+        <link rel="stylesheet" href="./src/css/style.css">
+        <link rel="stylesheet" href="./src/css/screen.css">
+
+        <title>Acadanse</title>
     </head>
     <body>
-        <header>
-            <img id="banner_logo" src="../src/img/logo_vf.png">
-            <img src="../src/img/hamburger.svg" class="hamburger-menu" onClick="toggleMenu()">
+
+        <header class="header">
+            <img id="banner_logo" src="./src/img/logo_vf.png">
+            <img src="./src/img/hamburger.svg" class="hamburger-menu" onClick="toggleMenu()">
             <nav id="menu" class="cache">
-                <a href="../index.html#association">Association</a>
-                <a href="../index.html#inscription">Inscription</a>
-                <a href="../index.html#cours">Cours</a>
-                <a href="../index.html#mensurations">Mensurations</a>
-                <a href="./souvenirs.html">Souvenirs</a>
-                <a href="../index.html#contact">Contact</a>
+                <a href="#description">Association</a>
+                <a href="#inscription">Inscription</a>
+                <a href="#cours">Cours</a>
+                <a href="#mensurations">Mensurations</a>
+                <a href="./souvenirs/souvenirs.html">Souvenirs</a>
+                <a href="#contact">Contact</a>
             </nav>
         </header>
-        <section id="souvenirs">
-            <h3>souvenirs</h3>
-            <p>Ici, vous retrouverez des bons moments capturés durant les cours de danses ainsi que lors des galas organisés par l'association : </p>
-            <div>
-                <img src="../src/img/DSC_0102.JPG">
-                <img src="../src/img/DSC_0104.JPG">
-                <img src="../src/img/DSC_0120.JPG">
-                <img src="../src/img/DSC_0135.JPG">
-                <img src="../src/img/DSC_0144.JPG">
-                <img src="../src/img/DSC_0160.JPG">
-                <img src="../src/img/DSC_0194.JPG">
-                <img src="../src/img/groupe danse halloween 2020.jpg">
-                <img src="../src/img/IMG_20171209_185253.jpg">
-                <img src="../src/img/IMG_2806.JPG">
-                <img src="../src/img/IMG_2811.JPG">
-                <img src="../src/img/IMG_4820.JPG">
-                <img src="../src/img/LES 3 COPINES DANSE.jpg">
-                <img src="../src/img/P6254314.jpg">
-                <img src="../src/img/P6254341.jpg">
-                <img src="../src/img/P6254487.jpg">
-                <img src="../src/img/P6254497.jpg">
-                <img src="../src/img/P6254519.jpg">
-                <img class="img-verticale" src="../src/img/P6254457.jpg" style="width:10%;">
-                <img class="img-verticale" src="../src/img/P6254464.jpg" style="width:10%;">
+        <section id="banner" class="container">
+            <video src="./src/img/Vidéo PROMO.mp4" autoplay muted loop></video>
+                
+        </section>
+
+        <section id="description">
+            <div data-aos="fade-bottom">
+                <h2>
+                    Description de l'association
+                </h2>
+                <div>
+                    <p>
+                        Bienvenue dans l'association ACADANSE, une association familiale
+                        ayant pour but de favoriser la danse moderne, pour les enfants de la
+                        maternelle au lycée, vivant en milieu rural.<br>
+                        <br>
+                        Les cours se font dans une atmosphère conviviale et chaleureuse.
+                        Notre objectif, faire aimer la danse aux enfants.<br>
+                        <br>
+                        Les mercredis et les samedis après-midi, à la salle du Temps Libre de 
+                        Savy-Berlette (salle de danse à l'étage). Les groupes de danseuses sont 
+                        généralement de 10 avec des enfants / adolescentes de leurs âges.<br>
+                        <br>
+                        Des événements sur le thème de Noël et d’Halloween ainsi qu’un gala de
+                        fin d’année (juin)  sont organisés.<br>
+                        <br>
+                        Pour tout renseignement, merci de bien vouloir contacter<br>
+                        Madame PRZYBYLSKI Emmanuelle au 06.87.32.72.20 ou par mail à <a href="mailto:acadanse@live.fr.">acadanse@live.fr</a>
+                    </p>
+                </div>
             </div>
         </section>
-        <script src="../src/js/script.js"></script>
-    </body> 
+
+        <section id="inscription" data-aos="fade-bottom">
+            <h4>Inscription</h4> 
+
+            <p>Pour inscrire votre enfant aux cours de danse. Veuillez remplir la fiche d'inscription, signé le règlement<br>
+                intérieur et nous fournir les documents indiqués au dos de la feuille d'inscription.</p>
+
+            <div>
+                <img src="src/img/fiche d'inscription .png">   
+                <img src="src/img/fiche d'inscription 2.png">   
+            </div>
+            <div>
+            <a href="src/Fiche d'inscription Acadanse Savinoise.pdf">Télécharger</a>
+            </div>
+
+            <hr>
+
+            <h4>Règlement intérieur</h4>
+            <div>
+                <img src="src/img/règlement intérieur.png">   
+                <img src="src/img/règlement intérieur2.png">
+            </div>
+            <div>
+                <a href="src/Fiche d'inscription Acadanse Savinoise.pdf">Télécharger</a>
+            </div>
+
+        </section>
+
+        
+        <section id="cours" data-aos="fade-bottom">
+            <h3>
+                Les cours
+            </h3>
+            
+            <div>
+                <table>
+                    <tr>
+                        <th>Mercredi</th>
+                        <th>Samedi</th>
+                    </tr>
+                    <tr>
+                        <td>Après-midi </td>
+                        <td>Après-midi </td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="2">Les cours ne sont pas maintenus pendant les vacances scolaires et les jours fériés</td>
+                    </tr>
+
+                </table>  
+            </div>
+          
+        </section>
+
+        <section id="mensurations">
+
+            <h3> MENSURATIONS</h3>
+            <div>
+                <div class="list-mensurations">
+                    <p>Pour la réalisation des costumes, nous<br>
+                        demandons aux parents les mensurations de<br>
+                        leur enfant.</p> <br>
+                    <ul>
+                        <li>Merci de nous indiquer :</li>
+                        <li>- Tour de poitrine</li>
+                        <li>- Tour de taille</li>
+                        <li>- Hauteur de buste</li>
+                        <li>- Tour de bassin</li>
+                        <li>- Longueur de robe (jusqu'au genou)</li><br>
+                        <li>- Taille de tee-shirt</li>
+                        <li>- Taille de pantalon ou robe</li>
+                        <li>- Taille de votre enfant</li>
+                    </ul>
+                </div>
+
+                <div class="video-mensurations">
+                    <p>Cette vidéo vous permettra de bien positionner<br>
+                        le mètre lors de la prise des mesures</p>
+                    <iframe src="https://www.youtube.com/embed/FwjrqjiKFxM"></iframe>
+                    <a class="link-ytb" href="https://www.youtube.com/watch?v=FwjrqjiKFxM"> Voir la vidéo</a>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <div data-aos="fade-bottom">
+                <div>
+                    <div>
+                        <div id="telPoint"></div>
+                        <a href="tel:+33687327220">06.87.32.72.20</a>
+                    </div>
+                    <div>
+                        <div id="mailPoint"></div>
+                        <a href="mailto:manue.przybylski@gmail.com">manue.przybylski@gmail.com</a>
+                    </div>
+                </div>    
+                <h3>Contact</h3>
+            </div>
+            <div class="gmap_canvas">
+                <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=12%20bis%20rue%20des%20manoirs%2062690%20Savy-Berlette&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                </iframe><style>.mapouter{position:relative;text-align:right;height:500px;width:500px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:500px;}</style>
+            </div>
+        </section>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="./src/js/script.js"></script>
+    </body>
 </html>
