@@ -13,13 +13,15 @@
         
         <link rel="stylesheet" href="../src/css/normalize.css">
         <link rel="stylesheet" href="../src/css/style.css">
+        <link rel="stylesheet" href="../src/css/screen.css">
 
         <title>Souvenirs</title>
     </head>
     <body>
         <header>
             <img id="banner_logo" src="../src/img/logo_vf.png">
-            <nav>
+            <img src="../src/img/hamburger.svg" class="hamburger-menu" onClick="toggleMenu()">
+            <nav id="menu" class="cache">
                 <a href="../index.html#association">Association</a>
                 <a href="../index.html#inscription">Inscription</a>
                 <a href="../index.html#cours">Cours</a>
@@ -29,7 +31,7 @@
             </nav>
         </header>
         <section id="souvenirs">
-            <h3> souvenirs</h3>
+            <h3>souvenirs</h3>
             <p>Ici, vous retrouverez des bons moments capturés durant les cours de danses ainsi que lors des galas organisés par l'association : </p>
             <div>
                 <img src="../src/img/DSC_0102.JPG">
@@ -50,9 +52,10 @@
                 <img src="../src/img/P6254487.jpg">
                 <img src="../src/img/P6254497.jpg">
                 <img src="../src/img/P6254519.jpg">
-                <img src="../src/img/P6254457.jpg" style="width:10%;">
-                <img src="../src/img/P6254464.jpg" style="width:10%;">
+                <img class="img-verticale" src="../src/img/P6254457.jpg" style="width:10%;">
+                <img class="img-verticale" src="../src/img/P6254464.jpg" style="width:10%;">
             </div>
         </section>
+        <script src="../src/js/script.js"></script>
     </body> 
 </html>
