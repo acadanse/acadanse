@@ -1,0 +1,309 @@
+@media screen and (max-width: 1160px ) {
+    header a {
+        font-size: 0.75rem;
+    }
+    #mensurations > div {
+        align-items: center;
+    }
+    .video-mensurations iframe {
+        width: 500px !important;
+        height: 300px !important;
+    }
+}
+@media screen and (max-width: 1000px) {
+    #banner_logo {
+        width: 100px;
+    }
+    .list-mensurations p, .list-mensurations li {
+        font-size: 0.75rem;
+    }
+    .video-mensurations p {
+        font-size: 0.75rem;
+    }
+    .video-mensurations iframe {
+        width: 300px !important;
+        height: 200px !important;
+    }
+}
+@media screen and (max-width: 890px) {
+    #description div {
+        width: 90%;
+        background-position: center;
+    }
+    #inscription div a {
+        width: 40%;
+    }
+    header nav {
+        width: 50%;
+    }
+    #contact > div > div {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 768px ) {
+    #banner_logo {
+        text-align: left;
+        width: 120px;
+        transition: width 300ms;
+    }
+    #banner {
+        display: none;
+    }
+    .cache {
+        display: none;
+        animation: menu 300ms ease-in-out;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+    @keyframes menu {
+        from {
+            height: 0px;
+            opacity: 0;
+        }
+        to {
+            height: 350px;
+            opacity: 1;
+        }
+    }
+    @keyframes menu-close {
+        from {
+            height: 350px;
+            opacity: 1;
+        }
+        to {
+            height: 0px;
+            opacity: 0;
+        }
+    }
+    header nav {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        z-index: 9999;
+        background-color: #6e4197;
+        right: 0;
+        width: 100%;
+        top: 100%;
+    }
+    header nav a {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        color: white;
+        border-bottom: none;
+        text-align: center;
+        padding-bottom: 30px;
+     }
+    header nav a:hover {
+        color: white;
+        border-bottom: none;
+    }
+
+    #souvenirs > div {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0;
+    } 
+    #souvenirs img {
+        width: 100%;
+    }
+    .img-verticale {
+        width: 100% !important;
+    }
+    #description {
+        width: 100%;
+        margin-top: 100px;
+    }
+    #description h2 {
+        width: 100%;
+        text-align: center;
+    }
+    #inscription a {
+        width: 50% !important;
+    }
+    #description > div {
+        width: 100%;
+        flex-direction: column;
+    }
+    #description > div > div {
+        width: 90%;
+    }
+    #mensurations > div {
+        flex-direction: column;
+    }
+    #mensurations p {
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+    .list-mensurations {
+        height: 100%;
+        width: 50%;
+        margin: 0 auto;
+    }
+    #mensurations > div iframe {
+        display: block;
+        width: 300px !important;
+        height: 200px !important;
+        margin: 0 auto;
+    }
+    #contact {
+        background-position: center;
+    }
+    #contact > div {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    #contact > div > div {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #banner_logo {
+        text-align: left;
+        width: 120px;
+        transition: width 300ms;
+    }
+    #banner {
+        display: none;
+    }
+    .cache {
+        display: none;
+        animation: menu 300ms ease-in-out;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+    @keyframes menu {
+        from {
+            height: 0px;
+            opacity: 0;
+        }
+        to {
+            height: 350px;
+            opacity: 1;
+        }
+    }
+    @keyframes menu-close {
+        from {
+            height: 350px;
+            opacity: 1;
+        }
+        to {
+            height: 0px;
+            opacity: 0;
+        }
+    }
+    header nav {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        z-index: 9999;
+        background-color: #6e4197;
+        right: 0;
+        width: 100%;
+        top: 100%;
+    }
+    header nav a {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        color: white;
+        border-bottom: none;
+        text-align: center;
+        padding-bottom: 30px;
+     }
+    header nav a:hover {
+        color: white;
+        border-bottom: none;
+    }
+    #description {
+        width: 100%;
+        margin-top: 100px;
+    }
+    #description h2 {
+        width: 100%;
+        text-align: center;
+    }
+    #inscription a {
+        width: 50% !important;
+    }
+    #description > div {
+        width: 100%;
+        flex-direction: column;
+    }
+    #description > div > div {
+        width: 90%;
+    }
+    #mensurations > div {
+        flex-direction: column;
+    }
+    #mensurations p {
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+    .list-mensurations {
+        height: 100%;
+    }
+    #mensurations > div iframe {
+        display: block;
+        width: 300px !important;
+        height: 200px !important;
+        margin: 0 auto;
+    }
+    #contact {
+        background-position: center;
+    }
+    #contact > div {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    #contact > div > div {
+        width: 90%;
+    } 
+    #telPoint {
+        background-repeat: no-repeat;
+    }
+    .gmap_canvas {
+        width: 300px !important;
+    }
+}
+@media screen and (max-width: 375px) {
+    #contact iframe {
+        width: 300px !important;
+    }   
+    .gmap_canvas {
+        width: 80% !important;
+    }
+}
+@media screen and (max-width: 320px) {
+    #description {
+        background-position: center;
+    }
+    #description p {
+        font-size: 0.75rem;
+    }
+    #mensurations iframe {
+        display: none !important;
+    }
+    .link-ytb {
+        display: block;
+        width: 80%;
+        margin: 30px auto;
+        text-transform: uppercase;
+        background-color: #6e4197;
+        text-align: center;
+        color: white;
+        padding: 20px;
+        text-decoration: none;
+    }
+    .list-mensurations {
+        width: 90%;
+    }
+    #inscription a {
+        width: 80% !important;
+    }
+}
