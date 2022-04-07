@@ -161,7 +161,7 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 425px) {
     #banner_logo {
         text-align: left;
         width: 120px;
@@ -268,7 +268,7 @@
         background-repeat: no-repeat;
     }
     .gmap_canvas {
-        width: 300px !important;
+        width: 400px !important;
     }
 }
 @media screen and (max-width: 375px) {
@@ -305,5 +305,8 @@
     }
     #inscription a {
         width: 80% !important;
+    }
+    .gmap_canvas {
+        width: 300px !important;
     }
 }
